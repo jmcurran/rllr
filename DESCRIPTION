@@ -4,15 +4,17 @@ Title: What the Package Does (Title Case)
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "James", "Curran",
+      email = "j.curran@auckland.ac.nz",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: This package offers a set of functions for the evaluation and calibration of scoring (log-likelihood ratio
+    ) systems, such as Cost of log-likelihood ratio (C_llr), Empirical Cross Entropy (ECE) Plots, and Detection Error
+    Tradeoff (DET) curves.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/jmcurran/rllr
 BugReports: https://github.com/jmcurran/rllr/issues
+RoxygenNote: 7.3.2

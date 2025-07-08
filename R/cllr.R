@@ -1,6 +1,6 @@
 #' Compute the cost of log-likelihood ratio (C_llr)
 #'
-#' The Cost of Log-Likelihood Ratio \eqn{C_{\mathrm{llr}}}{C_llr} is a scalar measure of calibration performance for
+#' The Cost of Log-Likelihood Ratio, \eqn{C_{\mathrm{llr}}}{C_llr}, is a scalar measure of calibration performance for
 #' likelihood-ratio systems. It tells you how well the system's scores behave like true log-likelihood ratios - that is,
 #' how well they represent the strength of evidence.
 #'
@@ -28,7 +28,7 @@
 #' @param labels A vector of "ground truth" values, where it takes the value 1 if the comparision was same-source, and 0
 #'   if the comparison was different-source.
 #'
-#' @returns
+#' @returns A value between 0 and 1 which is the cost of log-likelihood ratios figure.
 #' @export
 #'
 #' @examples
